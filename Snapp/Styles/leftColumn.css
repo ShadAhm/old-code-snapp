@@ -1,0 +1,77 @@
+﻿/*  ----------------------------------------------------------------------  */
+/*  -------------------- LEFT COLUMN STUFF -------------------------------  */
+/*  ----------------------------------------------------------------------  */
+.meContainer
+{
+    width:100%;  
+    padding:10px; 
+    margin-top:10px;
+    margin-bottom:10px;  
+    overflow:hidden; 
+    display:block; 
+}
+
+.mePicture{ width:50px; height:50px; overflow:hidden; float:left; }
+
+.meDescription
+{
+    height:50px; 
+    width:140px; 
+    padding-left:0.5em;
+    overflow:hidden; 
+    font-size:9pt; 
+    
+    display:-moz-box;
+    -moz-box-align:center;
+    display:-webkit-box;
+    it-box-pack:center;
+    -webkit-box-align:center;
+    display:box;
+    box-align:center;
+}
+
+.meDescription a{ font-weight:bold; }
+
+/* ---------- END ME ------------ */
+
+ul.navUl
+{
+    list-style-type:none;
+    margin-top:10px;
+    margin-left:5px; 
+    padding:0;
+    font-size:0.7em; 
+    font-weight:bold; 
+    color:gray; 
+}
+
+a.navA
+{
+    display:block;
+    width:120px;
+    color:black; 
+    text-decoration:none; 
+}
+
+div.navContainer 
+{
+    width:100%;
+}
+
+li.navLi
+{
+    border:0px; 
+    font-weight:normal; 
+    font-size:1.2em; 
+    padding:3px;
+    margin-left:10px; 
+    margin-top:3px;
+}
+
+li.navLi:hover { background-color:#dddddd; }
+a.navA:active { background-color:inherit; }
+
+
+/*  ----------------------------------------------------------------------  */
+/*  ----------------------------------------------------------------------  */
+/*  ----------------------------------------------------------------------  */

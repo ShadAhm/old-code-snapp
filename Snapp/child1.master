@@ -1,0 +1,157 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="child1.master.cs" Inherits="Snapp.child1" %>
+<asp:Content ID="ChildHeadContent" ContentPlaceHolderID="HeadContent" runat="server">
+<asp:ContentPlaceHolder ID="ChildHeadContentHolder" runat="server">
+</asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="ChildBodyContent" ContentPlaceHolderID="MainContentMaster" runat="server">
+    <div id="leftContainer">
+        <!--- LEFT ----------------------------------------------------------------------------------------------------->
+        <!------ CONTAINER --------------------------------------------------------------------------------------------->
+        <!----------- STARTS ------------------------------------------------------------------------------------------->
+        <!---------------- HERE ---------------------------------------------------------------------------------------->
+        <div class="navContainer">
+            <div class="meContainer">
+                <div class="mePicture">
+                    <img src="images/me.jpg" alt="Arshad Ahmad" style="max-width: 50px; margin:0;" /></div>
+                <div class="meDescription">
+                    <a href="arshadahmad.aspx" class="meDescription">Arshad Ahmad</a></div>
+            </div>
+            <ul class="navUl">
+                FAVOURITES
+                <li class="navLi"><a href="default.aspx" class="navA">News Feed</a></li>
+                <li class="navLi"><a href="arshadahmad.aspx" class="navA">Messages</a></li>
+                <li class="navLi"><a href="#" class="navA">Events</a></li>
+                <li class="navLi"><a href="#" class="navA">Photos</a></li>
+            </ul>
+            <ul class="navUl">
+                FRIENDS
+                <li class="navLi"><a href="friends.aspx" class="navA">All Friends</a></li>
+                <li class="navLi"><a href="#" class="navA">Family</a></li>
+                <li class="navLi"><a href="#" class="navA">Alfacom Technologies</a></li>
+                <li class="navLi"><a href="#" class="navA">Multimedia</a></li>
+                <li class="navLi"><a href="#" class="navA">Kaula Lumpur</a></li>
+            </ul>
+            <ul class="navUl">
+                GROUPS
+                <li class="navLi"><a href="#" class="navA">Alfacom Working</a></li>
+                <li class="navLi"><a href="#" class="navA">Groups at MMU</a></li>
+                <li class="navLi"><a href="#" class="navA">Create Group...</a></li>
+            </ul>
+            <ul class="navUl">
+                APPS
+                <li class="navLi"><a href="#" class="navA">App Centre</a></li>
+                <li class="navLi"><a href="#" class="navA">Instagram</a></li>
+                <li class="navLi"><a href="#" class="navA">Find Friends</a></li>
+                <li class="navLi"><a href="#" class="navA">Games Feed</a></li>
+                <li class="navLi"><a href="#" class="navA">Pokes</a></li>
+            </ul>
+            <ul class="navUl">
+                PAGES
+                <li class="navLi"><a href="#" class="navA">Pages Feed</a></li>
+                <li class="navLi"><a href="#" class="navA">Like Pages</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--- LEFT ----------------------------------------------------------------------------------------------------->
+    <!------ CONTAINER --------------------------------------------------------------------------------------------->
+    <!------------- ENDS ------------------------------------------------------------------------------------------->
+    <!---------------- HERE ---------------------------------------------------------------------------------------->
+    <!--- MAIN ----------------------------------------------------------------------------------------------------->
+    <!------ CONTAINER --------------------------------------------------------------------------------------------->
+    <!----------- STARTS ------------------------------------------------------------------------------------------->
+    <!---------------- HERE ---------------------------------------------------------------------------------------->
+    <div id="mainContainer">
+        <asp:ContentPlaceHolder ID="ChildMainContent" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+    <!--- MAIN ----------------------------------------------------------------------------------------------------->
+    <!------ CONTAINER --------------------------------------------------------------------------------------------->
+    <!-------------- ENDS ------------------------------------------------------------------------------------------>
+    <!---------------- HERE ---------------------------------------------------------------------------------------->
+    <!--- RIGHT ---------------------------------------------------------------------------------------------------->
+    <!------ CONTAINER --------------------------------------------------------------------------------------------->
+    <!----------- STARTS ------------------------------------------------------------------------------------------->
+    <!---------------- HERE ---------------------------------------------------------------------------------------->
+    <div id="rightContainer">
+        <div class="fakeAdBox">
+            <img src="images/fakeAd.jpg" style="max-width: 240px; display: block; margin-left: auto;
+                margin-right: auto" />
+        </div>
+        <p style="text-align: center; color: #333333; margin-top: 0; font-size: 0.6em; letter-spacing: 2px;">
+            ADVERTISEMENT</p>
+        <div class="rcbHead">
+            What's going on today</div>
+        <div class="rcbBody">
+            <p>
+                <a href="#">Nick Clark</a>'s birthday<br />
+                <a href="#">1 request</a> from Movie Blitz<br />
+                <a href="#">17 other app requests</a></p>
+        </div>
+        <div class="rcbHead">
+            People you may know</div>
+        <ul style="list-style-type: none; margin: 0px; padding: 0px;">
+            <li>
+                <div class="rcbBody">
+                    <div class="pymkContainer">
+                        <div class="pymkPicture">
+                            <img src="images/pymk/nobita3.jpg" style="max-width: 90px" /></div>
+                        <div class="pymkDescription">
+                            <a href="#">Nobita Nobi</a><br />
+                            21 mutual friends</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="rcbBody">
+                    <div class="pymkContainer">
+                        <div class="pymkPicture">
+                            <img src="images/pymk/suneo.png" alt="Suneo Honekawa" style="max-width: 90px" /></div>
+                        <div class="pymkDescription">
+                            <a href="#">Suneo Honekawa</a><br />
+                            18 mutual friends</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="rcbBody">
+                    <div class="pymkContainer">
+                        <div class="pymkPicture">
+                            <img src="images/pymk/shizuka.png" alt="Shizuka Minamoto" style="max-width: 90px" /></div>
+                        <div class="pymkDescription">
+                            <a href="#">Shizuka Minamoto</a><br />
+                            20 mutual friends</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="rcbBody">
+                    <div class="pymkContainer">
+                        <div class="pymkPicture">
+                            <img src="images/pymk/doraemon.jpg" style="max-width: 90px" /></div>
+                        <div class="pymkDescription">
+                            <a href="#">Doraemon</a><br />
+                            2 mutual friends</div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="rcbBody" style="margin-top: 10px; padding-top: 0px;">
+            Snapp &#169; 2013
+        </div>
+        <ul class="lcs" style="margin: 0px; padding-left: 5px">
+            <li class="lcs"><a href="#">English (UK)</a></li>
+            <li class="lcs">&#183; </li>
+            <li class="lcs"><a href="#">Terms</a></li>
+            <li class="lcs">&#183; </li>
+            <li class="lcs"><a href="#">Privacy</a></li>
+        </ul>
+    </div>
+    <!--- RIGHT ---------------------------------------------------------------------------------------------------->
+    <!------ CONTAINER --------------------------------------------------------------------------------------------->
+    <!-------------- ENDS ------------------------------------------------------------------------------------------>
+    <!---------------- HERE ---------------------------------------------------------------------------------------->
+
+
+</asp:Content>

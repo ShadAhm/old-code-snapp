@@ -1,0 +1,101 @@
+﻿/*  ----------------------------------------------------------------------  */
+/*  -------------------- NEWS FEED POSTS ---------------------------------  */
+/*  ----------------------------------------------------------------------  */
+
+.Cross { float:right; }
+
+.postContainerContainer
+{
+    width:100%;
+    overflow:auto;
+    margin-top:12px; 
+    border-top-style:solid;
+    border-top-width:1px;
+    border-top-color:#CCCCCC;
+}
+
+.postContainer
+{
+    width:90%;
+    margin-top:12px;
+    margin-left:auto;
+    margin-right:auto; 
+    overflow:auto; 
+}
+
+.commentContainerContainer
+{
+    width:50%;
+    overflow:auto;
+    margin-top:3px; 
+    background-color:#FEF1B5;
+    border-top-style:dotted;
+    border-top-width:1px;
+    border-top-color:#FF8C00;
+}
+
+.commentContainer
+{
+    overflow:auto;
+    margin-top:12px;
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+div.postLeft, div.commentLeft { float:left; overflow:hidden; }
+div.postLeft { width:10%; }
+div.commentLeft { width:20%; padding-left:3px; }
+
+div.postRight, div.commentRight { float:left; overflow:hidden; }
+div.postRight { width:90%; }
+div.commentRight { width:80%; }
+
+a.postRightLink { font-weight:bold; display:block; } 
+
+p.wallPost { margin-top:0; } 
+
+#statuss
+{
+    border: 1px solid orange; 
+    -webkit-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1); 
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+    width:100%;
+}
+
+#commentBox
+{
+    border: 1px solid orange; 
+    -webkit-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+     inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1); 
+    padding: 2px;
+    background: rgba(255,255,255,0.5);
+} 
+
+#commentPost1
+{
+    margin-top:3px;
+    padding:1px; 
+    display:none; 
+    background-color:#FEF1B5;
+    width:50%;
+}
+
+/*  ----------------------------------------------------------------------  */
+/*  ----------------------------------------------------------------------  */
+/*  ----------------------------------------------------------------------  */

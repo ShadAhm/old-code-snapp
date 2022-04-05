@@ -1,0 +1,79 @@
+﻿/*  -------------------------------------------------------------------------  */
+/*  ---------MASTER-PAGE'S---------------------------------------------------  */
+/*  -------------------RIGHT-COLUMN -----------------------------------------  */
+/*  ------------------------------- STUFF -----------------------------------  */
+/*  -------------------------------------------------------------------------  */
+
+.fakeAdBox 
+{
+    background-color:#F0F0F0;
+    border-style:dotted;
+    border-color:#CCCCCC;
+    padding:3px; 
+    border-width:1px;
+}
+
+.rcbHead, .rcbBody 
+{
+    width:99%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.rcbHead 
+{
+    background-color:#F0F0F0;
+    border-top-width:1px; 
+    border-top-style:solid; 
+    border-top-color:#CCCCCC;
+    padding:3px;
+    overflow:auto; 
+    
+    color:#363636;
+    font-weight:bold; 
+}
+
+.rcbBody { color:#999999; padding:3px; }
+.rcbBody a { font-weight:bold; }
+
+/*-- PEOPLE YOU MAY KNOW --*/
+.pymkContainer 
+{
+    width:100%;  
+    padding:0px; 
+    margin:2px; 
+    border-bottom-style:dotted;
+    border-bottom-width:1px;
+    border-bottom-color:#CCCCCC;
+    overflow:auto; 
+    display:block; 
+}
+
+.pymkPicture 
+{
+    width:90px;
+    height:90px;
+    background-color:gray; 
+    float:left; 
+    overflow:hidden; 
+}
+
+.pymkDescription 
+{
+    width:60%; 
+    height:90px; 
+    float:left; 
+    padding-left:1em; 
+    overflow:auto;  
+    display:-moz-box;
+    -moz-box-align:center;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    display:box;
+    box-align:center;
+}
+
+/*  ----------------------------------------------------------------------  */
+/*  ----------------------------------------------------------------------  */
+/*  ----------------------------------------------------------------------  */

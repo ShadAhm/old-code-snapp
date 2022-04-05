@@ -1,0 +1,37 @@
+﻿/*  ----------------------------------------------------------------------  */
+/*  --------------------- FRIENDS PAGE STUFF -----------------------------  */
+/*  ----------------------------------------------------------------------  */
+
+table.friendsList 
+{
+    width:90%;
+    margin-top:20px; 
+    margin-left:auto;
+    margin-right:auto; 
+    border-collapse:collapse; 
+}
+
+td.friendsList
+{
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:#CCCCCC;
+    padding:3px; 
+}
+
+img.friendPic 
+{ 
+    vertical-align:middle; 
+    margin-right:5px; 
+}
+
+.unfriend
+{
+    width:15%;  
+    font-size:0.9em;
+    color:Gray; 
+}
+
+/*  ----------------------------------------------------------------------  */
+/*  ----------------------------------------------------------------------  */
+/*  ----------------------------------------------------------------------  */

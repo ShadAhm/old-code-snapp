@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Snapp.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/leftColumn.css" rel="Stylesheet" type="text/css" />
+    <link href="~/Styles/rightColumn.css" rel="Stylesheet" type="text/css" />
+    <link href="Styles/normalize.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+        <!--- TOP ------------------------------------------------------------------------------------------------------>
+        <!------ CONTAINER --------------------------------------------------------------------------------------------->
+        <!----------- STARTS ------------------------------------------------------------------------------------------->
+        <!---------------- HERE ---------------------------------------------------------------------------------------->
+<div id="topContainer">
+        <a href="default.aspx" id="logo">
+            <img src="images/snapp_logo.png" alt="Snapp" style="max-width: 200px" /></a>
+        <div class="topBarThingsContainer">
+            <div class="searchBoxContainer">
+                <input type="text" class="searchTextBox" value="Search Snapp" onclick="this.value='';" />
+                <img src="images/magnifyingGlassIcon.png" alt="Search" style="float:right; border-left:1px solid #F0F0F0;"/>
+            </div>
+            <div class="meContainerTop">
+                <ul class="topUl">
+                    <li class="topList"><a href="arshadahmad.aspx" style="color:white">Arshad Ahmad</a></li>
+                    <li class="topList">Find Friends</li>
+                    <li class="topList">Home</li>
+                </ul>
+            </div>
+        </div>
+</div>
+        <!---- TOP ----------------------------------------------------------------------------------------------------->
+        <!------ CONTAINER --------------------------------------------------------------------------------------------->
+        <!------------- ENDS ------------------------------------------------------------------------------------------->
+        <!---------------- HERE ---------------------------------------------------------------------------------------->
+
+
+    <!--- MAIN ----------------------------------------------------------------------------------------------------->
+    <!------ CONTAINER --------------------------------------------------------------------------------------------->
+    <!----------- STARTS ------------------------------------------------------------------------------------------->
+    <!---------------- HERE ---------------------------------------------------------------------------------------->
+    <div id="mainContainerMaster">
+        <asp:ContentPlaceHolder ID="MainContentMaster" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <!--- MAIN ----------------------------------------------------------------------------------------------------->
+    <!------ CONTAINER --------------------------------------------------------------------------------------------->
+    <!-------------- ENDS ------------------------------------------------------------------------------------------>
+    <!---------------- HERE ---------------------------------------------------------------------------------------->
+
+    <!--- FOOTER --------------------------------------------------------------------------------------------------->
+    <!------ CONTAINER --------------------------------------------------------------------------------------------->
+    <!-------------- STARTS ---------------------------------------------------------------------------------------->
+    <!---------------- HERE ---------------------------------------------------------------------------------------->
+<div id="footerContainer">
+        <a href="default.aspx" id="A1">
+            <img src="images/snapp_logo.png" alt="Snapp" style="max-width: 200px" /></a>
+</div>
+
+
+
+    <!--- FOOTER --------------------------------------------------------------------------------------------------->
+    <!------ CONTAINER --------------------------------------------------------------------------------------------->
+    <!-------------- ENDS ------------------------------------------------------------------------------------------>
+    <!---------------- HERE ---------------------------------------------------------------------------------------->
+
+</body>
+</html>
